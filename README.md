@@ -1,4 +1,4 @@
-# Akbank Derin Öğrenme Bootcamp Projesi
+# Yağmur Yavuz - Aykan Soydan
 Bu proje, CNN (Convolutional Neural Network) kullanılarak NEU Steel Surface Defect Classification System veri setinde AI-Powered Industrial Quality Control sistemini başarıyla çalıştırmayı hedefler.
 # Veri Seti
 NEU Steel Surface Defect Classification veri seti Kaggle üzerinden temin edilmiştir. 
