@@ -18,3 +18,4 @@ Sınıflandırma raporu ile modelimizin her bir sınıf için performansını da
 Genel olarak, model tüm sınıflarda dengeli ve başarılı bir performans göstermiştir. Bu sonuçlar, projenin amacına ulaştığını ve geliştirilen CNN modelinin kalite kontrol problemi için etkili bir çözüm sunduğunu göstermektedir.
 # Linkler
 https://www.kaggle.com/code/aykansoydan/d3fectvision/notebook
+https://github.com/soydanaykan05
