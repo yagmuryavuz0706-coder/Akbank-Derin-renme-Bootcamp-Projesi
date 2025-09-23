@@ -3,7 +3,7 @@ Bu proje, CNN (Convolutional Neural Network) kullanılarak NEU Steel Surface Def
 # Veri Seti
 NEU Steel Surface Defect Classification veri seti Kaggle üzerinden temin edilmiştir. 
 # Kullanılan Yöntemler
-Proje kapsamında; veri önişleme, veri çoğaltma (data augmentation), CNN tabanlı model oluşturma,  sample count, hiperparametre optimizasyonu ve model değerlendirmesi gibi adımlar uygulanacaktır.
+Proje kapsamında; veri önişleme, veri çoğaltma (data augmentation), CNN tabanlı model oluşturma, hiperparametre optimizasyonu ve model değerlendirmesi gibi adımlar uygulanacaktır.
 # Elde Edilen Sonuçlar ve Yorumlama
 * Test Doğruluğu
 
