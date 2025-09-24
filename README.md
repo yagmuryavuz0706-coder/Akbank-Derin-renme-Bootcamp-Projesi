@@ -1,22 +1,43 @@
-# Yağmur Yavuz - Aykan Soydan
-Bu proje, CNN (Convolutional Neural Network) kullanılarak NEU Steel Surface Defect Classification System veri setinde AI-Powered Industrial Quality Control sistemini başarıyla çalıştırmayı hedefler.
-# Veri Seti
-NEU Steel Surface Defect Classification veri seti Kaggle üzerinden temin edilmiştir. 
-# Kullanılan Yöntemler
-Proje kapsamında; veri önişleme, veri çoğaltma (data augmentation), CNN tabanlı model oluşturma, hiperparametre optimizasyonu ve model değerlendirmesi gibi adımlar uygulanacaktır.
-# Elde Edilen Sonuçlar ve Yorumlama
-* Test Doğruluğu
+# DefectVision: NEU Metal Yüzey Hataları Sınıflandırıcı
 
-Eğitilen model, %99.63 oranında eğitildi. Bu oran modelimizin daha önce hiç görmediği görüntüleri neredeyse kusursuz bir şekilde ayırabildiğini gösterir.
-* Sınıf Bazlı Performans Analizi
+Python TensorFlow Accuracy License
 
-Sınıflandırma raporu ile modelimizin her bir sınıf için performansını daha net görebiliriz.
-1.000 DOĞRULUK ORANINA ULAŞMIŞ SINIFLAR: Crazing (Yüzey Çatlaması - İnce Çizgisel Kusurlar), Inclusion (Dahil Edilmiş Yabancı Madde Kusurları), Rolled (Haddeleme Kaynaklı Kusurlar) ve Straches (Çizik ve Kazınma Kusurları)
-0.99 DOĞRULUK ORANINA ULAŞMIŞ SINIFLAR: Patches (Yama Benzeri Yüzey Kusurları) ve Pitted (Çukurlu Yüzey Kusurları)
-* SONUÇLARIN ÖZETİ
+Proje Özeti
 
-Genel olarak, model tüm sınıflarda dengeli ve başarılı bir performans göstermiştir. Bu sonuçlar, projenin amacına ulaştığını ve geliştirilen CNN modelinin kalite kontrol problemi için etkili bir çözüm sunduğunu göstermektedir.
-# Linkler
-https://www.kaggle.com/code/aykansoydan/d3fectvision/notebook
+Akbank Derin Öğrenme Bootcamp kapsamında geliştirilen bu proje, CNN mimarisi kullanarak endüstrideki metallerin yüzeylerinde oluşan hataları %94.63 doğruluk oranıyla sınıflandırmaktadır.
 
-https://github.com/soydanaykan05
+Proje Amacı
+
+Endüstriyel kalite kontrol için otomatik hata tespiti
+Derin öğrenme modellerinin endüstriyel uygulamaları
+CNN mimarilerinin performans değerlendirmesi
+📈 Sonuçlar
+
+Metric	Value
+Test Accuracy	94.63%
+Training Accuracy	85.62%
+Validation Accuracy	90.56%
+Overfitting	Yok ✅
+Sınıf Bazlı Performans
+
+Defect Type	Accuracy	Samples
+Crazing	100.0%	90
+Inclusion	100.0%	90
+Patches	98.9%	90
+Pitted	98.9%	90
+Rolled	100.0%	90
+Scratches	100.0%	90
+Model Mimarisi
+
+Model: "DefectVision_CNN"
+├── Conv2D(32, (3,3)) + BatchNormalization + Dropout(0.3)
+├── Conv2D(64, (3,3)) + BatchNormalization + Dropout(0.4)
+├── Flatten()
+├── Dense(128) + Dropout(0.5)
+└── Dense(6, activation='softmax')
+
+##  Veri Seti
+Dataset: NEU Metal Surface Defects Data
+Total Images: 1,800
+Classes: 6
+Image Size: 200x200 pixels
