@@ -45,3 +45,8 @@ Dataset: NEU Metal Surface Defects Data
 Total Images: 1,800
 Classes: 6
 Image Size: 200x200 pixels
+```
+
+## Linkler
+https://www.kaggle.com/code/yamuryavuz77/ai-powered-industrial-quality-control
+
