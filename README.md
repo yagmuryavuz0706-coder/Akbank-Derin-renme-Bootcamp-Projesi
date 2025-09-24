@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/22517746/README.md)
 # DefectVision: NEU Metal Yüzey Hataları Sınıflandırıcı
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
