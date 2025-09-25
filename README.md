@@ -49,5 +49,6 @@ Image Size: 200x200 pixels
 
 ## Linkler
 https://www.kaggle.com/code/yamuryavuz77/ai-powered-industrial-quality-control
+
 https://github.com/soydanaykan05/akbank-deep-learning-bootcamp
 
