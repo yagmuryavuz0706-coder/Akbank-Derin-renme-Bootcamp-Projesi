@@ -52,3 +52,5 @@ https://www.kaggle.com/code/yamuryavuz77/ai-powered-industrial-quality-control
 
 https://github.com/soydanaykan05/akbank-deep-learning-bootcamp
 
+https://www.kaggle.com/code/aykansoydan/d3fectvision
+
